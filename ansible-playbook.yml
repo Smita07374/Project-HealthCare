@@ -22,4 +22,4 @@
     shell: docker rm $(docker ps -a -q)
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 9292:8082 smitachawla67/bankingapp:latest
+    command: docker run -itd -p 9292:8082 smitachawla67/medicureapp:latest
